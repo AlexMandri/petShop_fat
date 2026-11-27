@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 table{
     width: 600px;
     border-collapse: collapse;
@@ -37,3 +44,8 @@ th{
 .btn-apple:active{
     transform: scale(0.98);
 }
+
+/* ----------------------------------------------------- */
+/* Formulário */
+
+
