@@ -6,7 +6,7 @@
 }
 
 :root {
-    --background-Gradient: linear-gradient(135deg, #0f2027, #1d4e5f 55%, #2c7a7b);
+    --background-gradient: linear-gradient(135deg, #0f2027, #1d4e5f 55%, #2c7a7b);
     /* --background-gradient:#fff; */
     --background-input: rgba(255, 255, 255, 0.1);
     --glass: rgba(255, 255, 255, 0.12);
@@ -23,7 +23,7 @@
 body {
     /* flex: 1; */
     min-height: 100vh;
-    background: var(--background-Gradient);
+    /* background: var(--background-gradient); */
 
 
 }
@@ -33,6 +33,7 @@ header {
     flex-direction: column;
     align-items: center;
     padding: 20px 0;
+    background: var(--background-gradient);
 }
 
 header>h1 {
@@ -87,8 +88,15 @@ th {
 
 /* ----------------------------------------------------- */
 /* Formulário */
-
-.section_form {
+.section-form{
+    min-width: 100vw;
+    display: grid;
+    place-items: center;
+    background: var(--background-gradient);
+    margin: 0;
+    padding: 20px 0;
+}
+.glass-form {
     width: 440px;
     padding: 40px 32px;
     border-radius: 20px;
@@ -100,7 +108,7 @@ th {
     color: var(--text-color);
 }
 
-.section_form h3 {
+.glass-form h3 {
     font-family: 2.8rem;
     text-align: center;
     margin-bottom: 28px;
